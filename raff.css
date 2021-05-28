@@ -9,11 +9,6 @@ video {
     transition: all .5s;
 }
 
-video:hover {
-    box-shadow: 9px 3px 14px 3px rgba(0, 0, 0, 0.336);
-    transition: .2s ease-in;
-}
-
 body {
     background-image: url("https://pbs.twimg.com/media/Dd2XjdBVMAALtM7?format=jpg&name=small");
     background-size: 200vh;
