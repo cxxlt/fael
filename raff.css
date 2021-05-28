@@ -1,0 +1,44 @@
+video {
+    width: 20%; max-width: 25%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s;
+}
+
+video:hover {
+    box-shadow: 9px 3px 14px 3px rgba(0, 0, 0, 0.336);
+    transition: .2s ease-in;
+}
+
+body {
+    background-image: url("https://pbs.twimg.com/media/Dd2XjdBVMAALtM7?format=jpg&name=small");
+    background-size: 200vh;
+}
+
+button {
+  width: 100px;  
+  height: 50px;
+  border-radius: 10px;
+  left: 47%;
+  top: 2%;
+  color: aquamarine;
+  position:absolute;
+  border: solid aquamarine 1.5px;
+  background-color: rgba(14, 13, 13, 0.993);
+  cursor:pointer;
+  font-family: 'Teko', sans-serif;
+  transition: all .5s;
+}
+
+button:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 9px 3px 14px 3px rgba(0, 0, 0, 0.336);
+    transition: transform .5s ease-in-out;
+    transition: .5s ease-in-out;
+    color: rgb(255, 255, 255);
+    
+}
